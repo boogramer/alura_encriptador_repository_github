@@ -209,22 +209,6 @@ button{
 #copy-button:active{
     background: #809ce2;
 }
-/* #copy-button:before{
-    content: "Copiado";
-    position: absolute;
-    top: -50px;
-    right: 0;
-    background: #6D9DC5;
-    padding: 8px 10px;
-    border-radius: 20px;
-    font-size: 15px;
-}
-
-#copy-button:after{
-    content: "";
-    position: absolute;
-    top: -20px
-} */
 
 /* footer style stars here */
 
