@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador #Challenge ONE</title>
+    <!-- CSS link code -->
+    <link rel = "stylesheet" type="text/css" href="normalize.css">
+    <link rel = "stylesheet" type="text/css" href="codigoCSSEncriptador.css">
+    <!-- icon for tittle -->
+    <link rel="icon" href="https://www.alurastart.com.br/assets/api/share/alura-start.jpg" type="image/icon type">
+    <!-- icons from font-awesome -->
+    <script src="https://kit.fontawesome.com/e98f16611e.js" crossorigin="anonymous"></script>
+    <!-- font de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+<!-- main section stars here -->
+    <main class="main">
+        <div class="cont-logo">
+            <img src="/img/logo_alura.jpg" alt="Logo Alura" title="LogoAlura" class="cont-logo__logo">
+        </div>
+
+        <div class="cont-msg">
+            <div class="cont-msg__input-msg">
+                <textarea class = "cont-msg__textarea" name="" id="textarea" placeholder="Ingrese el texto a encriptar"></textarea>
+                <div class="cont-buttons-n-small">
+                    <div class="cont-icon-n-small">
+                        <i class="fa-solid fa-triangle-exclamation"></i><small class="cont-icon-n-small__small">Solo ingresar letras minusculas y sin acentos!!</small>
+                    </div>
+                    <div class="cont-buttons">
+                        <button id = "encrypt" class="cont-buttons__buttons cont-buttons__buttons--button1">Encriptar</button>
+                        <button id = "des-encrypt" class="cont-buttons__buttons cont-buttons__buttons--button2">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont-encrypt-msg">
+            <div class="cont-to-encrypt">
+                <div class="cont-no-encrypted-msg">
+                    <img src="/img/buscar.jpg" alt="Not Yet Encrypted" class="cont-no-encrypted-msg__img-encrypted">
+                    <h2 class="cont-no-encrypted-msg__not-msg">Ningun mensaje se ha intrucido</h2>
+                    <p class="cont-no-encrypted-msg__imput-msg">Ingrese el texto que desea encriptar</p>
+                </div>
+                <div class="cont-encrypted-msg">
+                    <div class="cont-encryptedt-lorem">
+                        <textarea class="cont-encryptedt-lorem__lorem-msg"></textarea>
+                    </div>
+                    <button id = "copy-button"class="cont-encrypted-msg__button-copy"><i class="fa-regular fa-copy"></i>Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- main section  ends here -->
+
+<!-- footer section stars here -->
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="container">
+                <figure class="container__figure">
+                    <a href="" class="figure__a">
+                        <img src="https://th.bing.com/th/id/R.d0f728a465d19c0d27e365b4c5f1f56b?rik=KPHYyA23rW1C9w&riu=http%3a%2f%2fstatic1.wikia.nocookie.net%2f__cb20131208012525%2ftitanfall%2fimages%2f4%2f48%2fHammond_logo.png&ehk=pAyrkv7sxNxF9h5j7RsFZQ1lFt8fD7Z6C7tbealVjsg%3d&risl=&pid=ImgRaw&r=0" alt="" class="me" id="figure__logo">
+                    </a>
+                </figure>
+            </div>
+            
+            <div class="container">
+                <h2 class="container__h2-nosotros">Que quiero lograr</h2>
+                <p class="container__p-nosotros">Quiero lograr comprender el proceso de creación de software para servir a la sociedad con apps moviles y de escritorio que sean efectivas con una excelente experiencia de usuario</p>
+            </div>
+
+            <div class="container">
+                <h2 class="container__h2-siguenos">Seguime</h2>
+                <div class="redes-sociales">
+                    <a href="" class="redes-sociales__a"><i class="fa-brands fa-github"></i>Github</a>
+                    <a href="" class="redes-sociales__a"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                    <a href="" class="redes-sociales__a"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="" class="redes-sociales__a"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                </div>
+            </div>
+        <div>
+
+        </div  class="grupo-2">
+            <small class="grupo-2__small">&copy;<b> boogramer</b> - Todos los derechos reservados</small>
+        </div>
+    </footer>
+<!-- footer section ends here -->
+
+<!-- script file -->
+   <script src="codigoJSEncriptador.js"></script>
+</body>
+</html>
