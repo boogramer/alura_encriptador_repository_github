@@ -253,7 +253,7 @@ button{
 }
 
 .container__h2-siguenos{}
-.redes-sociales__a{
+.redes__a{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
@@ -261,12 +261,12 @@ button{
     border-radius: .55rem;
 }
 
-.redes-sociales__a:hover{
+.redes__a:hover{
     background: #809ce2;
     font-size: 1.2rem;
 }
 
-.redes-sociales__a > i{
+.redes__a > i{
     color: #353232;
     margin-right: 3px;
 }
