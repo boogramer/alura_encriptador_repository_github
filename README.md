@@ -38,15 +38,16 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 Por ejemplo:
 `"gato" => "gaitober"`
 `gaitober" => "gato"`
+- Descrifra el mensaje secreto: "fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!" 
 
 ---
 
 **Caracteristicas de mi codificador/decodificador:**
 
-- Responsive design desktop/movile
-- Solo funciona con letras minúsculas.
-- Puede encriptar una palabra y luego desencriptarla.
-- Tiene un boton de copiar para simplificar el proceso.
+- Responsive design desktop/movile. Adaptado para varias resoluciones de móvil.
+- Solo funciona con letras minúsculas. Cada vez que ingresas mayúsculas o caracteres especiales te vota un 'alert' y se recarga la página.
+- Puede encriptar una frase y luego desencriptarla.
+- Tiene un boton para copiar el texto codifificado.
 ---
 
-## [ir a la pagina](https://boogramer.github.io/alura_repository_github/) 👌
+## [ir hacia mi pagina](https://boogramer.github.io/alura_repository_github/) 👌
