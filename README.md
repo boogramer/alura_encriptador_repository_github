@@ -4,7 +4,7 @@
 ![🖥💻Desafio_Encriptador_de_Texto_-_Challenge_ONE](https://github.com/boogramer/alura_repository_github/assets/125413596/1a1b9c84-2fac-4c58-ad80-920c770642fd)
 
 ---
-Link del proyecto abajo 😎
+Link del proyecto abajo.
 ---
 ### Que lenguajes he usado:
 
@@ -50,4 +50,4 @@ Por ejemplo:
 - Tiene un boton para copiar el texto codifificado.
 ---
 
-## [ir hacia mi pagina](https://boogramer.github.io/alura_repository_github/) 👌
+## [ir hacia mi pagina](https://boogramer.github.io/alura_repository_github/) 👀
